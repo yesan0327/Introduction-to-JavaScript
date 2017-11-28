@@ -1,0 +1,4 @@
+1.clear() //clear the console
+2.alert() //pop up a message
+3.console.log() //print the result in the console window
+4.prompt() //pop up a window that u can type ur answer in it
