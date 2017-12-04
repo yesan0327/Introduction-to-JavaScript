@@ -17,10 +17,15 @@ setInterval(function () { //manipulate
 },1000);
 
 //Exercise
-document.URL
-document.head
-document.body
-document.links
+document.URL();
+document.head();
+document.body();
+document.links();
 
 //Methods
-document.getElementById()
+document.getElementById();
+
+//
+tag.classList.add();
+tag.classList.remove();
+tag.classList.toggle();
