@@ -1,20 +1,20 @@
 // change the h1 color
-var h1=document.querySelector("h1");
-h1.style.color="yellow";
+var h1 = document.querySelector("h1");
+h1.style.color = "yellow";
 
 //chang the background
-var body=document.querySelector("body");
-var isBlue=false;
+var body = document.querySelector("body");
+var isBlue = false;
 
 setInterval(function () { //manipulate
-    if(isBlue){
-        body.style.background="white";
+    if (isBlue) {
+        body.style.background = "white";
     }
     else {
-        body.style.background="#3498db";
+        body.style.background = "#3498db";
     }
-    isBlue=!isBlue;
-},1000);
+    isBlue = !isBlue;
+}, 1000);
 
 //Exercise
 document.URL();
