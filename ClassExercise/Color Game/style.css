@@ -10,11 +10,16 @@ body {
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 15%;
+    transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
 
 #container {
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
+
 }
 
 h1 {
@@ -43,7 +48,8 @@ h1 {
 #colorDisplay {
     font-size: 200%;
 }
-button{
+
+button {
     border: none;
     background: none;
     text-transform: uppercase;
@@ -52,13 +58,18 @@ button{
     color: steelblue;
     letter-spacing: 1px;
     font-size: inherit;
-    transition: all 2.0s;
+    transition: all 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
-button:hover{
+
+button:hover {
     color: white;
     background: steelblue;
 }
-#message{
+
+#message {
     display: inline-block;
     width: 20%;
+    color: red;
 }
