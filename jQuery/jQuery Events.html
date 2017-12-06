@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h1>Demo Page</h1>
+<h1>Demo Page</h1>
+<h1>Demo Page</h1>
+
+<button>11111</button>
+<button>11111</button>
+<button>11111</button>
+<input type="text">
+</body>
+<script type="text/javascript">
+    //$("button").click(function () {
+    //    $(this).css("background","blue");
+    //})
+    //    $("button").click(function () {
+    //        var text=$(this).text();
+    //        console.log("you clicked"+text);
+    //    })
+    //    $("input").keypress(function () {
+    //        console.log("u pressed a key!");
+    //    })
+    //    $("input").keypress(function (event) {
+    //        if(event.which===13){
+    //            alert("you hit enter");
+    //        }
+    //    })
+    $("input").on("keypress", function () {
+        console.log("hello!");
+    })
+
+    $("h1").on("click", function () {
+        $(this).css("color", "purple");
+    })
+    $("button").on("mouseenter", function () {
+        console.log("mouse enter");
+        $(this).css("font-weight", "bold");
+    })
+    $("button").on("mouseleave", function () {
+        console.log("mouse enter");
+        $(this).css("font-weight", "normal");
+    })
+</script>
+</html>
